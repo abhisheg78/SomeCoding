@@ -1,0 +1,23 @@
+[
+		{
+			"operation" : "add_playlist",
+			"playlist" : {
+				"id" : "100",
+				"user_id" : "3",
+				"song_ids" : [
+					"6",
+					"7",
+					"13"
+				]
+			}
+		},
+		{
+			"operation" : "remove_playlist",
+			"playlist_id" : "2"
+		},
+		{
+			"operation" : "add_song",
+			"song_id" : "9",
+			"playlist_id": "1"
+		}
+]
